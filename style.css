@@ -82,14 +82,23 @@ img {
     text-align: center;
     
 }
-
+@media only screen and (max-width: 430px){
+    .container {
+        width: 90%;
+        margin-top: 150px;
+    }    
+}
+@media only screen and (max-width: 540px){
+    .container {
+        width: 90%;
+        margin-top: 60px;
+    }    
+}
 @media only screen and (max-width: 412px) {
     .container {
         padding: 10px;
-        width: auto;
-        margin-top: 160px;
-        margin-left: 30px;
-        margin-right: 40px;
+        margin-top: 270px;
+        
     }
 
     .img-container {
@@ -126,8 +135,9 @@ img {
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 414px) {
     .container {
-        margin-top: 35px;
+        width: 80%;
+        margin-top: 150px;
     }
 }
