@@ -87,7 +87,7 @@ img {
     .container {
         width: 90%;
         margin: 0 auto;
-        margin-top: 60px;
+        margin-top: 40px;
     }    
 }
 
@@ -99,38 +99,43 @@ img {
 
 @media only screen and (max-width: 412px) {
     .container {
-        padding: 15px;
-        margin-top: 140px;
+        padding: 0.30px;
+        margin-top: 6px;
     }
-
-    .img-container {
-        text-align: center;
-    }
-
-    .img {
-        width: 100%;
-        max-width: 200px;
-        height: auto;
+  
+}
+@media only screen 
+    and (device-width: 412px)
+    and (device-height: 915px)
+    and (-webkit-device-pixel-ratio: 2.625) {
+    .container {
+        margin-top: 50px;
     }
 }
 
 @media only screen and (max-width: 360px) {
     .container {
         padding: 10px;
-       
+        
     }
 }
 
 @media only screen and (max-width: 375px) {
     .container {
         padding: 10px;
-        margin-top: 30px;
+        
     }
 }
 
 @media only screen and (max-width: 376px) {
     .container {
         padding: 10px;
-        margin-top: 80px;
+        
+    }
+}
+@media only screen and (max-width: 393px) {
+    .container {
+        padding: 1px;
+        margin-top: 30px;
     }
 }
